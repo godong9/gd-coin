@@ -1,0 +1,32 @@
+{
+  "name": "gd-coin",
+  "version": "1.0.0",
+  "description": "GD coin",
+  "main": "index.js",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godong9/gd-coin.git"
+  },
+  "keywords": [
+    "blockchain",
+    "coin",
+    "token"
+  ],
+  "author": "donghyun.go",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/godong9/gd-coin/issues"
+  },
+  "homepage": "https://github.com/godong9/gd-coin#readme",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1",
+    "express": "^4.16.3",
+    "ws": "^6.0.0"
+  }
+}
